@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</Form></title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>First Name *: <input type="text" name="first_name"></p>
+    <P>Last Name *: <input type="text" name="last_name"></P>
+    <p>Email Address: * <input type="text" name="email address"></p>
+    <p>Password: * <input type="password" name="password"></p>
+    <p>Confirm Password: * <input type="password" name="password"></p>
+    <P>Birthday: <input type="date" name="dob"></P>
+    <p>Gender Identity:
+        <input type="radio" name="gender_identity" value="Male" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender_identity" value="Feale" id="female"><label for="female">Female</label>
+        <input type="radio" name="gender_identity" value="Non-Binary" id="nb"><label for="nb">Non-Binary</label>
+        <input type="radio" name="gender_identity" value="Not Provided" id="na"><label for="na">I Prefer Not to Disclose</label>
+    </p>
+    <p>A short description of myself:</p><textarea name="description" cols="30" rows="4"></textarea>
+    <p>Favorite Language:
+        <select name="language">
+            <option value="Javascript">Javascript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java">Java</option>
+            <option value="COBOL">COBOL</option>
+        </select>
+    </p>
+    <p>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I'd like to receive periodic email updates</label>
+    </p>
+    <p><input type="submit" value="Create Account"></p>
+    <p>* indicates a required field</p>
+</body>
+</html>
