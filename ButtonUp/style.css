@@ -1,0 +1,23 @@
+.search {
+    border: 1px solid rgb(20, 88, 66);
+    background-color:blanchedalmond;
+    color: rgb(20, 88, 66);
+    text-align: center;
+    font-weight: bolder;
+    width: 100px;
+    border-radius: 30%;
+}
+.plus {
+    border: 5px solid teal;
+    background-color: teal;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+.createaccount{
+    border: 5px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
