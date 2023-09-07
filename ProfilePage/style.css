@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+#navbar > ul {
+    display: flex;
+    list-style-type: none;
+}
+#navbar > ul > li{
+    padding: 0 20px;
+}
+button{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    margin-right: 20px;
+}
+.contentboxes{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+#profilebox, #educationbox, #connrequests, #yourconnections{
+    width: 500px;
+    border: 5px solid gray;
+    height: 400px;
+}
+#blueheader{
+    background-color: steelblue;
+    height: 150px;
+    display: flex;
+    align-items: last baseline;
+}
+.content {
+    background-color: white;
+}
+#avatar{
+    margin-left: 30px;
+}
+.graybox, .bluebox{
+    margin: 15px;
+}
