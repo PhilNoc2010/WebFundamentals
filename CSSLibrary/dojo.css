@@ -1,0 +1,59 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  /* blue button with drop shadow */
+  .btn{
+    border: 5px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+}
+.nav{
+    display: flex;
+    width: 900px;
+    background-color: slategray;
+    justify-content: space-between;
+}
+.nav-title{
+    font-family:  'Roboto', sans-serif;
+    color: white;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-family:  'Roboto', sans-serif;
+    font-size: small;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.avatar{
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 65px;
+}
