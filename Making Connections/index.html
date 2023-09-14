@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page, take 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="navlinks">
+        <p class="headline">Profile</p>
+        <p>Home</p>
+        <p>My Profile</p>
+        <p>Find Connections</p>
+    </div>
+    <button id="signout">Sign Out</button>
+</div>
+<div class="content">
+    <div class="leftColumn">
+        <div class="profile">
+            <div id="avatarbox">
+                <img src="../ProfilePage(2)/images/jane-m.jpg" alt="Jane Doe Image" class="avatar">
+            </div>
+            <p class="headline" id="profileName">Jane Doe</p>
+            <p><img src="../ProfilePage(2)/icons/map-marker.png" alt="Seattle">Seattle</p>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of Shadows and the Internet!</p>
+            <p><img src="../ProfilePage(2)/icons/gear.png" alt="Edit Profile"><a href="#" onclick="updateName()">Edit Profile</a></p>
+        </div>
+        <div class="education">
+            <div class="headlineBox">
+                <p class="headline">Education</p>
+            </div>
+            <h2>Coding Dojo - Full Stack Bootcamp</h2>
+            <h5>Dec 2019 -> March 2020</h5>
+            <h3>Triple Black Belt in Python, MERN, and C#</h3>
+        </div>
+    </div>
+    <div class="rightColumn">
+        <div class="connectionRequests">
+            <div class="headlineBox">
+                <p class="headline"><button id="connectionReq">2</button>Connection Requests</p>
+            </div>
+            <p id="index1"><img src="../ProfilePage(2)/images/todd-s.jpg" alt="Todd E" class="smallAvatar">Todd E <img src="../ProfilePage(2)/icons/accept-circle.png" alt="Accept" class="smallIcon" onclick="acceptReq(index1)"> <img src="../ProfilePage(2)/icons/close-circle.png" alt="Decline" class="smallIcon" onclick="declineReq(index1)"></p>
+            <p id="index2"><img src="../ProfilePage(2)/images/phil-s.jpg" alt="Phil K" class="smallAvatar">Phil K <img src="../ProfilePage(2)/icons/accept-circle.png" alt="Accept" class="smallIcon" onclick="acceptReq(index2)"> <img src="../ProfilePage(2)/icons/close-circle.png" alt="Decline" class="smallIcon" onclick="declineReq(index2)"></p>
+        </div>
+        <div class="yourConnections">
+            <div class="headlineBox">
+                <p class="headline"><button id="connectionTotal">418</button>Your Connections</p>
+            </div>
+            <p><img src="../ProfilePage(2)/images/adrien-s.jpg" alt="Adrien D" class="smallAvatar">Adrien D</p>
+            <p><img src="../ProfilePage(2)/images/anne-s.jpg" alt="Anne J" class="smallAvatar">Anne J</p>
+            <p><img src="../ProfilePage(2)/images/alayne-s.jpg" alt="Alayne T" class="smallAvatar">Alayne T</p>
+            <p><img src="../ProfilePage(2)/images/arry-s.jpg" alt="Arry Y" class="smallAvatar">Arry Y</p>
+            <div class="footerBox">
+                <p><a href="#">View More</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

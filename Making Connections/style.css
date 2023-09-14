@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+    padding: 0 10%;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+.navlinks > p {
+    padding: 0 10px;
+}
+.headline {
+    font-size: 24pt
+}
+.content{
+    display: flex;
+    margin: 5%
+}
+.leftColumn, .rightColumn{
+    padding: 2%;
+}
+.leftColumn{
+    flex: 2;
+}
+.rightColumn{
+    flex: 1;
+}
+.profile{
+    border: 10px solid gray;
+    margin: 2% 0;
+    height: 300px;
+}
+.profile > p {
+    padding: 3px 2%
+}
+.profile > .headline {
+    padding-top: 40px;
+}
+.profile > p > img {
+    height: 20px;
+}
+#avatarbox {
+    height: 100px;
+    background-color: teal;
+}
+.avatar{
+    height: 75px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    position:relative;
+    top: 50px;
+    margin-left: 50px;
+}
+.smallAvatar{
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+.smallIcon {
+    height: 30px
+}
+.education, .connectionRequests, .yourConnections {
+    border: 10px solid gray;
+    margin: 2% 0;
+    height: 300px;
+}
+.headlineBox{
+    background-color: gray;
+    color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.headlineBox >p {
+    font-size: 18pt;
+    padding: 0 10px;
+}
+.headlineBox > p > button {
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.footerBox {
+    border-top: 10px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#signout{
+    background-color: rgb(37, 28, 28);
+    padding: 5px 10px;
+    color: white;
+}
+.headlineBox {
+    padding: 5px
+}
